@@ -1,7 +1,6 @@
 {
     "name": "chenjia404/aliyun-openapi-php-sdk",
     "description": "阿里云php sdk",
-    "license": "Apache License 2.0",
     "authors": [{
         "name": "chenjia404",
         "email": "chenjiablog@gmail.com"
