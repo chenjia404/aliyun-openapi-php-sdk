@@ -84,6 +84,7 @@ class GetVerifyTokenRequest extends \RpcAcsRequest
 
 	public function setBinding($binding) {
 		$this->binding = $binding;
+        $this->queryParameters["Binding"]=$binding;
 		}
 
 	public function getVerifyConfigs() {
