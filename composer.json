@@ -19,6 +19,7 @@
             "Cdn\\": "aliyun-php-sdk-cdn/Cdn",
             "Cms\\": "aliyun-php-sdk-cms/Cms",
             "CS\\": "aliyun-php-sdk-cs/CS",
+            "cloudauth\\": "aliyun-php-sdk-cs/cloudauth",
             "Dm\\": "aliyun-php-sdk-dm/Dm",
             "Domain\\": "aliyun-php-sdk-domain/Domain",
             "Green\\": "aliyun-php-sdk-green/Green",
