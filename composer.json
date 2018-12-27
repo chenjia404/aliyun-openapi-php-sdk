@@ -1,0 +1,43 @@
+{
+    "name": "chenjia404/aliyun-openapi-php-sdk",
+    "description": "Alibaba Cloud SDK for PHP",
+    "license": "Apache License 2.0",
+    "authors": [{
+        "name": "chenjia404",
+        "email": "chenjiablog@gmail.com"
+    }],
+    "require": {},
+    "autoload": {
+        "classmap": ["aliyun-php-sdk-core/"],
+        "exclude-from-classmap":[
+            "aliyun-php-sdk-core/Config.php",
+            "aliyun-php-sdk-core/Autoloader/"
+        ],
+        "psr-4": {
+            "Ecs\\": "aliyun-php-sdk-ecs/Ecs",
+            "BatchCompute\\": "aliyun-php-sdk-batchcompute/BatchCompute",
+            "Alidns\\": "aliyun-php-sdk-alidns/Alidns",
+            "Cdn\\": "aliyun-php-sdk-cdn/Cdn",
+            "Cms\\": "aliyun-php-sdk-cms/Cms",
+            "CS\\": "aliyun-php-sdk-cs/CS",
+            "Dm\\": "aliyun-php-sdk-dm/Dm",
+            "Domain\\": "aliyun-php-sdk-domain/Domain",
+            "Green\\": "aliyun-php-sdk-green/Green",
+            "Iot\\": "aliyun-php-sdk-iot/Iot",
+            "Jaq\\": "aliyun-php-sdk-jaq/jaq",
+            "Kms\\": "aliyun-php-sdk-kms/Kms",
+            "live\\": "aliyun-php-sdk-live/live",
+            "Market\\": "aliyun-php-sdk-market/Market",
+            "Mts\\": "aliyun-php-sdk-mts/Mts",
+            "Ons\\": "aliyun-php-sdk-ons/Ons",
+            "Rds\\": "aliyun-php-sdk-rds/Rds",
+            "Sas_api\\": "aliyun-php-sdk-sap-api/Sas_api",
+            "Slb\\": "aliyun-php-sdk-slb/Slb",
+            "Sms\\": "aliyun-php-sdk-sms/Sms",
+            "Sts\\": "aliyun-php-sdk-sts/Sts",
+            "Ubsms\\": "aliyun-php-sdk-ubsms/Ubsms",
+            "vod\\": "aliyun-php-sdk-vod/vod",
+            "Vpc\\": "aliyun-php-sdk-vpc/Vpc"
+        }
+    }
+} 
